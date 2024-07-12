@@ -32,4 +32,4 @@ def generate_plan():
     return jsonify({"plan": generated_content})
 
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run(debug=True)
